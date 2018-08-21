@@ -17,23 +17,23 @@
 <link rel="shortcut icon" type="image/x-icon" href="" />
 
 <!-- CSS -->
-<link href="<?php get_stylesheet_directory_uri(); ?>/css/main.css" rel="stylesheet" type="text/css" />
-<link href="<?php get_stylesheet_directory_uri(); ?>/css/nivo-slider.css" rel="stylesheet" type="text/css" />
-<link href="<?php get_stylesheet_directory_uri(); ?>/css/nivotheme.css" rel="stylesheet" type="text/css" />
-<link href="<?php get_stylesheet_directory_uri(); ?>/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/main.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/nivo-slider.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/nivotheme.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 
 
 <!-- Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css' />
 
 <!-- JS -->
-<script type="text/javascript" src="<?php get_stylesheet_directory_uri(); ?>/js/jquery-1.7.2.js"></script>
-<script type="text/javascript" src="<?php get_stylesheet_directory_uri(); ?>/js/jquery.nivo.slider.pack.js"></script>
-<script type="text/javascript" src="<?php get_stylesheet_directory_uri(); ?>/js/jquery.quicksand.js"></script>
-<script type="text/javascript" src="<?php get_stylesheet_directory_uri(); ?>/js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="<?php get_stylesheet_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="<?php get_stylesheet_directory_uri(); ?>/js/script.js"></script>
-<script type="text/javascript" src="<?php get_stylesheet_directory_uri(); ?>/js/custom.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.quicksand.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/script.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/custom.js"></script>
 <!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
 
 <!--[if IE 9]>
@@ -72,8 +72,8 @@
         <div class="inner">
 
         	<div class="nivo-slider nivoSlider">
-                <a href=""><img src="images/slides/singolo-slide1.jpg" alt="#" /></a>
-                <img src="images/slides/singolo-slide2.jpg" alt="#" />
+                <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slides/singolo-slide1.jpg" alt="#" /></a>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slides/singolo-slide2.jpg" alt="#" />
             </div>
 
         </div><!-- .inner -->
@@ -157,73 +157,73 @@
             <ul class="portfolio">
             	<li data-id="id-1" data-type="webdesign">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img1.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img1.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
             	<li data-id="id-2" data-type="graphicdesign">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img2.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img2.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
             	<li data-id="id-3" data-type="webdesign">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img3.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img3.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
             	<li data-id="id-4" data-type="artwork">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img4.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img4.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
             	<li data-id="id-5" data-type="graphicdesign">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img5.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img5.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
             	<li data-id="id-6" data-type="artwork">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img6.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img6.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
             	<li data-id="id-7" data-type="webdesign">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img7.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img7.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
             	<li data-id="id-8" data-type="graphicdesign">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img8.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img8.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
             	<li data-id="id-9" data-type="artwork">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img9.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img9.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
             	<li data-id="id-10" data-type="graphicdesign">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img10.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img10.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
             	<li data-id="id-11" data-type="webdesign">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img11.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img11.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
             	<li data-id="id-12" data-type="artwork">
                     <a href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" rel="prettyPhoto[portfolio]">
-                        <img src="images/thumbnails/img12.jpg" width="220" height="187" alt="#" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/thumbnails/img12.jpg" width="220" height="187" alt="#" />
                     </a>
                 </li>
 
@@ -248,7 +248,7 @@
             <!-- Profile -->
             <ul>
             	<li>
-                	<img src="images/profile/profile1.jpg" width="300" height="300" alt="#" />
+                	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/profile/profile1.jpg" width="300" height="300" alt="#" />
                     <h4>Adam Jensen</h4>
                     <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
                     <a href=""><span class="icon-facebook"></span></a>
@@ -258,7 +258,7 @@
                 </li>
 
             	<li>
-                	<img src="images/profile/profile2.jpg" width="300" height="300" alt="#" />
+                	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/profile/profile2.jpg" width="300" height="300" alt="#" />
                     <h4>Desmond Miles</h4>
                     <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
                     <a href=""><span class="icon-facebook"></span></a>
@@ -268,7 +268,7 @@
                 </li>
 
             	<li>
-                	<img src="images/profile/profile3.jpg" width="300" height="300" alt="#" />
+                	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/profile/profile3.jpg" width="300" height="300" alt="#" />
                     <h4>Scolara Visari</h4>
                     <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
                     <a href=""><span class="icon-facebook"></span></a>
