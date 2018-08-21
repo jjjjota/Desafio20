@@ -68,17 +68,28 @@
 
 	<!-- Slider
 		============================= -->
-	<div id="slider" class="theme-default">
-        <div class="inner">
+  <?php
 
-        	<div class="nivo-slider nivoSlider">
-                <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slides/singolo-slide1.jpg" alt="#" /></a>
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slides/singolo-slide2.jpg" alt="#" />
+  $images = get_field( 'slider_images' );
+
+  if( $images ){ ?>
+
+    <div id="slider" class="theme-default">
+          <div class="inner">
+          	<div class="nivo-slider nivoSlider">
+
+              <?php
+              foreach ( $images as $image ) { ?>
+                <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt']; ?>">
+              <?php } ?>
+                  <!-- <a href=""><img src="<?php //echo get_stylesheet_directory_uri(); ?>/images/slides/singolo-slide1.jpg" alt="#" /></a> -->
+                  <!-- <img src="<?php //echo get_stylesheet_directory_uri(); ?>/images/slides/singolo-slide2.jpg" alt="#" /> -->
             </div>
+          </div><!-- .inner -->
+  	</div><!-- #slider -->
+  	<!-- End Slider -->
 
-        </div><!-- .inner -->
-	</div><!-- #slider -->
-	<!-- End Slider -->
+  <?php } ?>
 
 
 	<!-- Services
@@ -86,8 +97,8 @@
 	<div id="services">
         <div class="inner">
 
-        	<h2>Our Services</h2>
-            <h3>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</h3>
+        	<h2><?php echo get_field( 'features_title' ); ?></h2>
+            <h3><?php echo get_field( 'features_text' ); ?></h3>
 
             <ul>
             	<li>
